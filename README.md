@@ -31,7 +31,7 @@ There are two possible ways to submit your project. Your instructor should have 
 
 Use Node.js and Express to build an API that performs CRUD operations on users.
 
-- Add a `server` script to the `package.json` that runs the API using `nodemon`.
+- Add a `server` script to the `package.json` that runs the API using `nodemon`. [X]
 
 ### Write endpoints
 
@@ -44,7 +44,7 @@ Add the code necessary in `index.js` and `api/server.js` to create a Web API and
 | GET    | /api/users/:id | Returns the user object with the specified `id`.                                                       |
 | DELETE | /api/users/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
 | PUT    | /api/users/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
-
+[X]
 #### User Schema
 
 Each User _resource_ should conform to the following structure (AKA schema):
