@@ -14,24 +14,24 @@ There are two possible ways to submit your project. Your instructor should have 
 
 #### Option A - Codegrade
 
-- [ ] Fork and clone the repository.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submssion.
+- [NA] Fork and clone the repository.
+- [NA] Open the assignment in Canvas and click on the "Set up git" option.
+- [NA] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [NA] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [NA] Check to see that Codegrade has accepted your git submssion.
 
 #### Option B - Pull Request
 
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [X] Fork and clone the repository.
+- [X] Implement your project in a `firstname-lastname` branch.
+- [X] Create a pull request of `firstname-lastname` against your `main` branch.
+- [X] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
 Use Node.js and Express to build an API that performs CRUD operations on users.
 
-- Add a `server` script to the `package.json` that runs the API using `nodemon`.
+- Add a `server` script to the `package.json` that runs the API using `nodemon`. [X]
 
 ### Write endpoints
 
@@ -44,7 +44,7 @@ Add the code necessary in `index.js` and `api/server.js` to create a Web API and
 | GET    | /api/users/:id | Returns the user object with the specified `id`.                                                       |
 | DELETE | /api/users/:id | Removes the user with the specified `id` and returns the deleted user.                                 |
 | PUT    | /api/users/:id | Updates the user with the specified `id` using data from the `request body`. Returns the modified user |
-
+[X]
 #### User Schema
 
 Each User _resource_ should conform to the following structure (AKA schema):
